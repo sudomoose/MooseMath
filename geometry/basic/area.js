@@ -4,7 +4,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 rl.on('line', (input) => {
-    let args = input.split(" ");
+    let args = input.split(",");
     let answ = args[0]*args[1];
     console.log(answ);
 });
